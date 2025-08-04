@@ -89,8 +89,6 @@ in
     ];
   };
 
-  # Install firefox.
-  programs.firefox.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -108,6 +106,7 @@ in
     wofi
     keepass
     discord
+    vivaldi
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

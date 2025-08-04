@@ -4,6 +4,9 @@
     home.username = "aeksel";
     home.homeDirectory = "/home/aeksel";
     home.stateVersion = "25.05";
+    home.file = {
+        ".config/hypr".source = ./modules/hypr;
+    };
 
     programs.bash = {
         enable = true;
