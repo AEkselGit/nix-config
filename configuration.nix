@@ -49,6 +49,8 @@ in
 
   services.flatpak.enable = true;
 
+  programs.steam.enable = true;
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "no";
