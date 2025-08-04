@@ -107,6 +107,7 @@ in
     pcmanfm
     wofi
     keepass
+    discord
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
