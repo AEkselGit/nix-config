@@ -110,6 +110,8 @@ in
     bibata-cursors
     waybar
     hyprpaper
+    hyprshot
+    mako
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
