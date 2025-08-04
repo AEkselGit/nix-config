@@ -108,6 +108,8 @@ in
     discord
     vivaldi
     bibata-cursors
+    waybar
+    hyprpaper
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

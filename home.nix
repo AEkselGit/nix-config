@@ -5,6 +5,7 @@
     home.homeDirectory = "/home/aeksel";
     home.stateVersion = "25.05";
     home.file = {
+    	".config/waybar".source = modules/waybar;
         ".config/hypr".source = ./modules/hypr;
     };
 
