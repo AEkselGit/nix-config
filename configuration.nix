@@ -101,6 +101,7 @@ in
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim 
+    spotify
     fastfetch
     wget
     neovim
