@@ -7,6 +7,7 @@
     home.file = {
     	".config/waybar".source = modules/waybar;
         ".config/hypr".source = ./modules/hypr;
+	".config/alacritty".source = ./modules/alacritty;
     };
 
     programs.bash = {
