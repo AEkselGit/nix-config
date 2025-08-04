@@ -47,6 +47,8 @@ in
 
   programs.hyprland.enable = true;
 
+  services.flatpak.enable = true;
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "no";
@@ -97,6 +99,7 @@ in
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim 
+    fastfetch
     wget
     neovim
     alacritty
@@ -111,6 +114,8 @@ in
     waybar
     hyprpaper
     hyprshot
+    flatpak
+    steam
     mako
   ];
 
