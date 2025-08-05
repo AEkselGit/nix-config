@@ -18,5 +18,8 @@
 	    nix-conf = "sudo nvim /etc/nixos/configuration.nix";
 	    nix-push = "cd /etc/nixos && git add . && git commit -m 'Update nix config' && git push";
 	};
+	initExtra = ''
+	    export PS1='\[\e[96m\]\[\e[0m\] \[\e[93m\]\u\[\e[0m\] \w \\$ ' 	
+	'';
     };
 }

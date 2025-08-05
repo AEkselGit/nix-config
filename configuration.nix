@@ -113,14 +113,23 @@ in
     keepass
     discord
     vivaldi
+    firefox
+    microsoft-edge
     bibata-cursors
     waybar
     hyprpaper
+    hyprlock
     hyprshot
     flatpak
     steam
     mako
   ];
+
+  fonts.packages = with pkgs; [
+    nerd-fonts.fira-code
+    nerd-fonts.droid-sans-mono
+  ];
+
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
