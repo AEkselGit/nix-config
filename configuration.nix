@@ -50,6 +50,15 @@ in
   services.flatpak.enable = true;
 
   programs.steam.enable = true;
+  programs.steam.gamescopeSession.enable = true;
+  programs.gamemode.enable = true;
+
+  hardware.graphics = {
+	enable = true;
+  };
+
+ services.xserver.videoDrivers = ["amdgpu"];
+
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -100,7 +109,9 @@ in
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    vim 
+    vim
+    protonup
+    wine
     spotify
     fastfetch
     wget
