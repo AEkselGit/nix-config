@@ -105,6 +105,10 @@ in
     fastfetch
     wget
     neovim
+    obs-studio
+    ffmpeg
+    vlc
+    ffmpegthumbnailer
     alacritty
     kitty
     git
