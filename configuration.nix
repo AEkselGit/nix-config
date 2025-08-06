@@ -16,6 +16,7 @@ in
     home-manager.backupFileExtension = "backup";
     home-manager.users.aeksel = import ./home.nix;
 
+    nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
